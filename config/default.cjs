@@ -16,6 +16,6 @@ module.exports = {
     }
   },
   front: {
-    domain: "",
+    domain: "localhost:5173",
   }
 };
