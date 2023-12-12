@@ -8,6 +8,7 @@ This boilerplate provides a starting point for building scalable and efficient b
 - **MongoDB**: NoSQL database for modern applications.
 - **Mongoose**: MongoDB object modeling tool designed to work in an asynchronous environment.
 - **Dotenv**: Loads environment variables from a `.env` file into `process.env`.
+- **Config**: Loads config variables from a `/config/default.cjs` and can be accessed with `config.get("string pointing to config value")`.
 - **CORS**: Node.js package for providing a Connect/Express middleware that can be used to enable CORS.
 - **Error Handling**: Centralized error handling mechanism.
 - **Validation**: Request data validation using express-validator.
